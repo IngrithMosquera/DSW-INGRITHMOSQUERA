@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ESTRUCTURA BASICA DE HTML 5 (ETIQUETAS ATRIBUTOS Y VALORES)</h1>
+
+    <h2>OBJETIVO GENERAL</h2>
+    <p>Diseñar un OVI que contenga toda la información relacionada con Estructura básica de html5 (etiquetas, atributos y
+        valores).</p>
+
+    <h2>OBJETIVOS ESPECIFICOS</h2>
+    <ol>
+        <li>Analizar la estructura basica de html5.</li>
+        <li>Aprender la correcta escritura del codigo.</li>
+        <li>Explicar en que consisten las etiquetas, atributos y valores.</li>
+    </ol>
+    <h2>MATERIALES</h2>
+    <ul>
+        <strong>TEXTO</strong>
+        <br>
+        <li><a href="https://blog.aulaformativa.com/definicion-usos-ventajas-lenguaje-html5/#:~:text=HTML5%20(HyperText%20Markup%20Language)%20es,estructura%20de%20una%20p%C3%A1gina%20web.">Html5</a></li>
+        <li><a href="https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/">Estructura basica</a></li>
+        <li><a href="https://disenowebakus.net/html5.php">Etiquetas</a></li>
+        <li><a href="https://www.htmlquick.com/es/tutorials/html-tags-and-attributes/2.html#attributes">Atributos</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input#Atributos">Atributos y valores</a></li>
+        <br>
+
+        <strong>VIDEO</strong>
+        <br>
+        <li><a href="https://www.youtube.com/watch?v=54Ky7OZ9Jmc">Html5</a></li>
+        
+    </ul>
+
+    <h2>CONTENIDO</h2>
+
+    <h3>HTML5</h3>
+    <p>Es la quinta revisión del lenguaje de marcado estándar que se emplea para la web. Es uno de los lenguajes de marcado más usados en todo el mundo y la razón es bastante obvia: gracias a HTML5 podemos crear la estructura de una página web.
+        Texto, imágenes y material multimedia pueden mostrarse correctamente gracias a HTML5. Una de sus más grandes adiciones en esta nueva versión es poder añadir audio y video sin necesidad de usar Flash u otro reproductor multimedia.</p>
+
+        <h3>ESTRUCTURA BASICA</h3>
+        <p>En HTML existe un esqueleto básico, que todos debemos de conocer porque se viene usando desde los inicios del lenguaje. Nos referimos a la conocida estructura del HEAD / BODY. Toda jerarquía de etiquetas comienza por HTML y dentro tenemos dos grandes bloques HEAD y BODY.
+            Hasta hace poco dentro del BODY se colocaban etiquetas como DIV, SPAN, B, etc. Pero todas las etiquetas que usábamos decían poco a aquel sistema que las leyera. ¿Qué significa DIV? pues simplemente que estamos colocando una «división» pero no especifica para qué se usa esa división.
+            Quizás P tiene algo más de significado, pero no deja de ser un párrafo a secas, sin decirte qué tipo de información va a contener ese párrafo.<br></p>
+            <img src="Imagenes/ESTRUCTURA.png">
+
+        <h3>ETIQUETAS</h3>
+        <p><strong>!DOCTYPE HTML:</strong>Es un DOCTYPE mucho más simplificado que XHTML (cuyas reglas siguen siendo usadas) y te permite usar todas las habilidades de HTML5 sin que nada de lo que ya tienes programado deje de funcionar.<br>
+        <strong>HEADER:</strong>está diseñada para reemplazar la necesidad de crear divs sin significado semántico.<br>
+        <strong>HGROUP:</strong>Muchos headers necesitan múltiples títulos, como un blog que tiene un titulo y un tagline explicando el blog. "hgroup" permite colocar un h1, h2 y h3 dentro del header sin afectar el SEO, permitiendo usar otro h1 en el sitio.<br>
+        <strong>NAV:</strong>Igual que "header", "nav" está diseñado para que ahí coloques la botonera de navegación principal. Puedes colocar cualquier etiqueta dentro, aunque lo recomendado es usar listas "ul".<br>
+        <strong>SECTION:</strong>Define un área de contenido única dentro del sitio. En un blog, sería la zona donde están todos los posts. En un video de youtube, habría un section para el video, uno para los datos del video, otro para la zona de comentarios.<br>
+        <strong>ARTICLE:</strong>Define zonas únicas de contenido independiente. En el home de un blog, cada post sería un article. En un post del blog, el post y cada uno de sus comentarios sería un article.<br>
+        <strong>ASIDE:</strong>Cualquier contenido que no esté relacionado con el objetivo primario de la página va en un aside. En un blog, obviamente el aside es la barra lateral de información. En el home de un periódico, puede ser el 10 área de indicadores económicos.<br>
+        <strong>FOOTER:</strong>Este es obvio. Es el pie de página y todo lo que lo compone.<br>
+        <strong>DIV:</strong>siempre debe usarse cuando necesites una caja con objetivos de diseño gráfico o cualquier cosa que no tenga significado semántico.<br></p>
+
+        <p>Las etiquetas semánticas, a pesar de ser claves para posicionamiento en buscadores y buen desarrollo web, no son la razón por la que todo el mundo habla de HTML5. Video, audio y animación vectorial están en la lista de prioridades y en la boca de todas las personas que evangelizan su uso.</p>
+        <p><strong>VIDEO:</strong>Inserta video sin necesidad de plugins. Es muy fácil usarla, pero cada navegador soporta codecs diferentes de video, lo que hace necesario recodificar un video en múltiples codecs.<br>
+            <img src="Imagenes/VIDEO.PNG"><br>
+        <strong>AUDIO:</strong>Lo mismo que video, pero sin video. Puede usar múltiples formatos, en especial mp3, pero también depende del navegador.<br>
+        <img src="Imagenes/AUDIO.PNG"><br>
+        <strong>INPUT:</strong>ya existía como la etiqueta para insertar cajas de texto y botones. Ahora es más poderosa, con la capacidad de insertar cajas tipo “email” que se autovalidan, calendarios tipo “date”, sliders, números, entre otras.<br>
+        <strong>CANVAS:</strong>Un área de dibujo vectorial y de bitmaps con Javascript. Es un API de dibujo entero para Javascript.<br>
+        <strong>SVG:</strong>Una etiqueta, igual que img, para insertar dibujos y animaciones vectoriales al estilo de Flash. Todo basado en el estándar abierto SVG (Scalable Vector Graphics), derivado de XML.<br>
+        <img src="Imagenes/ETIQUETAS.PNG"></p>
+
+
+        <h3>ATRIBUTOS Y VALORES</h3>
+        <p>Los atributos son la forma que tienen los autores de definir propiedades para un elemento. Estas propiedades habitualmente cambian la forma en que los navegadores interpretan al elemento, al cambiar su significado o presentación.
+            Por ejemplo, el elemento a inserta un vínculo en el documento, pero el atributo rel indica la relación entre el documento actual (el que contiene al vínculo) y el recurso de destino (al cual el vínculo está apuntando).<br>
+            Los atributos son declarados indicando su nombre, seguido de un signo igual ("=") y el valor asignado entre comillas. Pero algunos atributos, que solo pueden tomar valores booleanos (verdadero o falso), aplican su valor tan sólo con su presencia.
+            En estos casos, los atributos pueden ser declarados con sólo indicar su nombre.</p>
+
+        <h2>MOCKUP</h2>
+        <img src="Imagenes/MOCKUP.png">
+</body>
+</html>
