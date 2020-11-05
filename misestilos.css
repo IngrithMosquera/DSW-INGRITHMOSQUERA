@@ -1,0 +1,42 @@
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #333333;
+    }
+    .titulo {
+        text-align: center;
+        color:  #F47920;
+}
+
+    .menu{
+        text-align: center;
+        padding: 10px;
+        background-color: #F0B429;
+        width: 99%;
+    }
+
+    button{
+        background-color:  #f3cb6d;
+        border-color: black;
+        }
+
+    .tabla{
+        text-align: justify;
+        width: 95%;
+        margin: 0%;
+        color: #333333;
+    }
+
+    .azul{
+        color: #005883;
+    }
+
+    .siguiente{
+        text-align: center;
+        color: #005883;
+        font-family: cursive;
+    }
+
+    .Referencia{
+        color: #005883;
+        font-family: cursive;
+    }
